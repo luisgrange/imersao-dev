@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:  #000 url("https://www.onlygfx.com/wp-content/uploads/2020/11/stack-of-gold-coins-1-300x268.png") no-repeat;
+    background-position: bottom;
+
+    min-height: 399px;
+
+    color: #fff;
+    font-family: 'Roboto mono', monospace;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title{
+    margin: 0 0 5px;
+}
+
+.subtitle{
+    margin: .5rem 0 1rem;
+}
+
+.alura-logo{
+    width: 40px;
+
+    position: absolute;
+
+    top: 10px;
+    right: 15px;
+}
+
+#value{
+    margin: .5rem;
+    padding: .5rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+button{
+    font-weight: 700;
+    margin: .3rem;
+    padding: .5rem;
+    border-style: none;
+    border-radius: .5rem;
+    transition: all .3s ease 0s;
+}
+
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 253, 33);
+
+}
+
